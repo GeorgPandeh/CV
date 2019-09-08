@@ -1,6 +1,22 @@
+@media (max-width: 768px) {
+  .container {
+    margin: 0 !important;
+    padding: 15px 2% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .useful-info {
+    display: block !important;
+    padding-left: 26px;
+  }
+  .profile {
+    width: 100% !important;
+  }
+}
+
 body {
   background-color: #f0f5ff;
-  min-width: 676px;
   font-family: 'Manjari', sans-serif;
 }
 
