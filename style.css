@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+  .wrapper {
+    margin: 0 !important;
+  }
   .container {
     margin: 0 !important;
     padding: 15px 2% !important;
@@ -12,6 +15,18 @@
   }
   .profile {
     width: 100% !important;
+  }
+}
+
+@media (min-height: 684px) {
+  .wrapper {
+    height: 100vh;
+    margin: 20px 15%;
+    display: table;
+  }
+  .container {
+    display: table-cell;
+    vertical-align: middle;
   }
 }
 
